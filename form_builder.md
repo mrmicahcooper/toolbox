@@ -16,14 +16,14 @@ and there is an error on your attribute- it will add markup like so:
 
 # Installation
 
-```bash
+```bash 
 cd /your/rails/project
 
-curl https://gist.github.com/mrmicahcooper/5061923/raw/9508641a9f6dd544fd4753164eec32a0c0cb2015/form_builder.rb -o --create-dirs config/initializers/form_builder.rb
+curl https://gist.github.com/mrmicahcooper/5061923/raw/9508641a9f6dd544fd4753164eec32a0c0cb2015/form_builder.rb -o config/initializers/form_builder.rb
 ```
 
 #Use
 
-You don't have to do anything to get this to work.
+You don't have to do anything to get this to work. 
 
 Just add the file, and restart your rails app. It will just work
