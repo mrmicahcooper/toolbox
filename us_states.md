@@ -7,7 +7,7 @@ A collection of US States for use with a select form helper
 ```bash
 cd path/to/rails/project
 
-curl https://gist.github.com/mrmicahcooper/5067438/raw/6db9a1847485586d35dea946e5159afe1ba11af2/us_states.rb -o --create-dirs app/models/us_states.rb
+curl https://gist.github.com/mrmicahcooper/5067438/raw/6db9a1847485586d35dea946e5159afe1ba11af2/us_states.rb -o app/models/us_states.rb
 ```
 
 ## Usage
