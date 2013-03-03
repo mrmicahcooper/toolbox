@@ -17,12 +17,10 @@ end
 ## Use
 
  `= active_link_to("Users", users_path)`
-
-_or_
-
+or
  `= active_link_to("Users", :users)`
 
-Will be active if the url is anything like: 
+will be active if the url is anything like: 
 - /users
 - /users/new
 - /users/4
