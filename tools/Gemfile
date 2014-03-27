@@ -1,0 +1,31 @@
+source 'https://rubygems.org'
+
+ruby '2.1.1'
+
+gem 'authem'
+gem 'decent_exposure'
+gem 'formal'
+gem 'haml-rails'
+gem 'jquery-rails'
+gem 'pg'
+gem 'pry-rails'
+gem 'puma'
+gem 'rails', '>= 4.0.0'
+
+gem 'rails_12factor', group: :production
+
+group :assets do
+  gem 'coffee-rails'
+  gem 'sass-rails'
+  gem 'uglifier'
+end
+
+group :test, :development do
+  gem 'capybara-webkit'
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
+  gem 'fabrication'
+  gem 'launchy'
+  gem 'rspec-rails'
+  gem 'paratrooper'
+end
